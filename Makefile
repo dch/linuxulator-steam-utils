@@ -2,7 +2,7 @@
 OSVERSION != awk '/^\#define[[:blank:]]__FreeBSD_version/ {print $$3}' < /usr/include/sys/param.h # from bsd.port.mk
 .endif
 
-PROJECT = steam-utils
+PROJECT = steam/utils
 
 BUILD_DIR ?= .
 PREFIX    ?= /opt
